@@ -34,6 +34,6 @@ class LocatorInterfaceTest extends \Xpmock\TestCase
     {
         $subject = $this->createInstance();
 
-        $this->assertInstanceOf('Dhii\\SimpleTest\\Locator\\LocatorInterface', $subject, 'Subject is not a valid locator');
+        $this->assertInstanceOf('Dhii\\SimpleTest\\Locator\\LocatorInterface', $subject, 'Subject is not a valid class locator');
     }
 }
