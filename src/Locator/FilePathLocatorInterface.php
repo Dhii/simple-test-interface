@@ -7,7 +7,7 @@ namespace Dhii\SimpleTest\Locator;
  *
  * @since [*next-version*]
  */
-interface FilePathLocatorInterface
+interface FilePathLocatorInterface extends LocatorInterface
 {
     /**
      * Add a path to this locator.
