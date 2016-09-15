@@ -34,6 +34,6 @@ class MakerInterfaceTest extends \Xpmock\TestCase
     {
         $subject = $this->createInstance();
 
-        $this->assertInstanceOf('Dhii\\SimpleTest\\Assertion\\MakerInterface', $subject, 'Subject is not a valid failed exception');
+        $this->assertInstanceOf('Dhii\\SimpleTest\\Assertion\\MakerInterface', $subject, 'Subject is not a valid assertion maker');
     }
 }
