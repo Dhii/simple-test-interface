@@ -40,5 +40,6 @@ class TestInterfaceTest extends \Xpmock\TestCase
         $subject = $this->createInstance();
 
         $this->assertInstanceOf('Dhii\\SimpleTest\\Test\\TestInterface', $subject, 'Subject is not a valid test');
+        $this->assertInstanceOf('Dhii\\SimpleTest\\Test\\TestBaseInterface', $subject, 'Subject is not a valid test');
     }
 }
