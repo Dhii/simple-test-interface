@@ -14,7 +14,6 @@
     "require-dev": {
         "dhii/php-cs-fixer-config": "dev-php-5.3",
         "ptrofimov/xpmock": "^1.1",
-        "codeclimate/php-test-reporter": "dev-master",
         "phpunit/phpunit": "4.*"
     },
     "autoload": {
