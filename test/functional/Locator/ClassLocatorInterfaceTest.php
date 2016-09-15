@@ -3,22 +3,23 @@
 namespace Dhii\SimpleTest\FuncTest\Locator;
 
 /**
- * Tests {@see \Dhii\SimpleTest\Locator\LocatorInterface}.
+ * Tests {@see \Dhii\SimpleTest\Locator\ClassLocatorInterface}.
  *
  * @since [*next-version*]
  */
-class LocatorInterfaceTest extends \Xpmock\TestCase
+class ClassLocatorInterfaceTest extends \Xpmock\TestCase
 {
     /**
      * Creates a new instance of the test subject.
      *
      * @since [*next-version*]
      *
-     * @return \Dhii\SimpleTest\Locator\LocatorInterface The new instance of the subject.
+     * @return \Dhii\SimpleTest\Locator\ClassLocatorInterface The new instance of the subject.
      */
     public function createInstance()
     {
-        $mock = $this->mock('Dhii\\SimpleTest\\Locator\\LocatorInterface')
+        $mock = $this->mock('Dhii\\SimpleTest\\Locator\\ClassLocatorInterface')
+                ->setClass()
                 ->locate()
                 ->new();
 
@@ -34,6 +35,7 @@ class LocatorInterfaceTest extends \Xpmock\TestCase
     {
         $subject = $this->createInstance();
 
-        $this->assertInstanceOf('Dhii\\SimpleTest\\Locator\\LocatorInterface', $subject, 'Subject is not a valid class locator');
+        $this->assertInstanceOf('Dhii\\SimpleTest\\Locator\\LocatorInterface', $subject, 'Subject is not a valid locator');
+        $this->assertInstanceOf('Dhii\\SimpleTest\\Locator\\ClassLocatorInterface', $subject, 'Subject is not a valid class locator');
     }
 }
