@@ -19,7 +19,6 @@ class CoordinatorInterfaceTest extends \Xpmock\TestCase
     public function createInstance()
     {
         $mock = $this->mock('Dhii\\SimpleTest\\Coordinator\\CoordinatorInterface')
-                ->make()
                 ->new();
 
         return $mock;
