@@ -1,0 +1,20 @@
+{
+    "name": "dhii/simple-test-interface",
+    "description": "Interfaces for Dhii SimpleTest",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dhii Team",
+            "email": "development@dhii.co"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "dhii/php-cs-fixer-config": "dev-php-5.3",
+        "ptrofimov/xpmock": "^1.1",
+        "codeclimate/php-test-reporter": "dev-master",
+        "phpunit/phpunit": "4.*"
+    }
+}
