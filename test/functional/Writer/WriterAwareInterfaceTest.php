@@ -5,14 +5,14 @@ namespace Dhii\SimpleTest\FuncTest\Writer;
 /**
  * Tests {@see \Dhii\SimpleTest\Writer\WriterAwareInterface}.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 class WriterAwareInterfaceTest extends \Xpmock\TestCase
 {
     /**
      * Creates a new instance of the test subject.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return \Dhii\SimpleTest\Writer\WriterAwareInterface The new instance of the subject.
      */
@@ -28,7 +28,7 @@ class WriterAwareInterfaceTest extends \Xpmock\TestCase
     /**
      * Tests that a class implementing this interface can be instantiated.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      */
     public function testCanBeCreated()
     {
