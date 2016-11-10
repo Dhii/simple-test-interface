@@ -7,14 +7,14 @@ namespace Dhii\SimpleTest\Test;
  *
  * A test source is something that can retrieve test instances.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 interface SourceInterface
 {
     /**
      * Retrieve tests.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return Test\TestInterface[] An array of tests.
      */

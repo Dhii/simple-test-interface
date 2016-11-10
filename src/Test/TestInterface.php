@@ -5,14 +5,14 @@ namespace Dhii\SimpleTest\Test;
 /**
  * Something that can act like a test.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 interface TestInterface extends TestBaseInterface
 {
     /**
      * Set the code for this test's suite.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @param string $code The code of the suite to which this case belongs.
      */

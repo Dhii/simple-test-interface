@@ -10,14 +10,14 @@ use Dhii\SimpleTest\Suite;
  *
  * A tester is responsible for managing suites of tests, and collecting their run stats.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 interface TesterInterface
 {
     /**
      * Adds a suite to be run by this tester.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @param Suite\SuiteInterface $suite The suite to add.
      */
@@ -26,7 +26,7 @@ interface TesterInterface
     /**
      * Runs all suites of tests in this tester.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return Test\ResultSetInterface A list containing results of all tests that were run.
      */

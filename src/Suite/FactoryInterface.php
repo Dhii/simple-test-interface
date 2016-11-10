@@ -5,7 +5,7 @@ namespace Dhii\SimpleTest\Suite;
 /**
  * Something that can create test suites.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 interface FactoryInterface
 {
@@ -14,7 +14,7 @@ interface FactoryInterface
      *
      * @param string $code The code of the test suite.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return SuiteInterface A new test suite instance.
      */

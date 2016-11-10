@@ -5,7 +5,7 @@ namespace Dhii\SimpleTest\Test;
 /**
  * Something that can retrieve totals for tests ran in relation to it.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 interface AccountableInterface
 {
@@ -16,7 +16,7 @@ interface AccountableInterface
     /**
      * Retrieve the total number of tests ran in relation to this instance.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return int The total number of tests.
      */
@@ -25,7 +25,7 @@ interface AccountableInterface
     /**
      * Retrieve the number of tests for the specified status code ran in relation to this instance.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @param string $status The status code, for which to get the test count.
      *
@@ -36,7 +36,7 @@ interface AccountableInterface
     /**
      * Retrieve a list of possible status codes.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return string[] A numeric array, each value of which is unique and reresents a status code.
      */

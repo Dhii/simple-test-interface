@@ -5,7 +5,7 @@ namespace Dhii\SimpleTest\Assertion;
 /**
  * Something that can act as an assertion maker.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 interface MakerInterface
 {
@@ -15,7 +15,7 @@ interface MakerInterface
     /**
      * React with specified message if the given assetion fails.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @param callable $assertion The assertion to make.
      * @param string   $message   The message in case the assertion fails.

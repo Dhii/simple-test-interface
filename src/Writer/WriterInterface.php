@@ -7,7 +7,7 @@ namespace Dhii\SimpleTest\Writer;
  *
  * A writer is something that is responsible for outputting data.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 interface WriterInterface
 {
@@ -21,7 +21,7 @@ interface WriterInterface
      *
      * A verbosity determines what data gets output, and what data doesn't.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @param int $level The verbosity level for this writer.
      */
@@ -30,7 +30,7 @@ interface WriterInterface
     /**
      * Retrieve the verbosity level of this writer.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return int This writer's verbosity level.
      */
@@ -39,7 +39,7 @@ interface WriterInterface
     /**
      * Output some data.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @param string $text  The data to output.
      * @param int    $level The verbosity level of the data.

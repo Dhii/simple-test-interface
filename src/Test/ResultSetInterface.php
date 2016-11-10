@@ -5,14 +5,14 @@ namespace Dhii\SimpleTest\Test;
 /**
  * Something that can act as a search result set.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 interface ResultSetInterface
 {
     /**
      * Retrieves a list of all test results in this set.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return ResultInterface[]|\Traversable
      */
@@ -21,7 +21,7 @@ interface ResultSetInterface
     /**
      * Retrieves a list of test results which have the specified status.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @param string $status The status code, for which to retrieve results.
      *

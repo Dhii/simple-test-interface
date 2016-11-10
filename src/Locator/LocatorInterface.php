@@ -9,14 +9,14 @@ use Dhii\SimpleTest\Test;
  *
  * A test locator is responsible for finding and retrieving tests.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 interface LocatorInterface
 {
     /**
      * Gets a list of tests located.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return Test\TestInterface[]|\Traversable A list of tests.
      */
