@@ -5,14 +5,14 @@ namespace Dhii\SimpleTest\FuncTest\Coordinator;
 /**
  * Tests {@see \Dhii\SimpleTest\Coordinator\CoordinatorInterface}.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 class CoordinatorInterfaceTest extends \Xpmock\TestCase
 {
     /**
      * Creates a new instance of the test subject.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return \Dhii\SimpleTest\Coordinator\CoordinatorInterface The new instance of the subject.
      */
@@ -27,7 +27,7 @@ class CoordinatorInterfaceTest extends \Xpmock\TestCase
     /**
      * Tests that a class implementing this interface can be instantiated.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      */
     public function testCanBeCreated()
     {

@@ -7,14 +7,14 @@ use Dhii\SimpleTest\Assertion;
 /**
  * Something that can make assertions us.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 interface AssertiveInterface
 {
     /**
      * Set the assertion maker to be used for assertions by this instance.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @param Assertion\MakerInterface $assertionMaker The assertion maker to be used by this intance to make assertions.
      */
@@ -23,7 +23,7 @@ interface AssertiveInterface
     /**
      * Triggers specified message if the given assertion fails.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @param callable $assertion An assertion to make.
      *                            If this returns boolean true, the assertion is considered to be successful.
@@ -35,7 +35,7 @@ interface AssertiveInterface
     /**
      * Triggers specified message if the given value is not strictly true.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @param bool   $value   The value that must be true.
      * @param string $message The message to trigger if the value is not true.
@@ -45,7 +45,7 @@ interface AssertiveInterface
     /**
      * Triggers specified message if the given value is not strictly false.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @param bool   $value   The value that must be false.
      * @param string $message The message to trigger if the value is not false.

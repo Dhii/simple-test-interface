@@ -7,14 +7,14 @@ namespace Dhii\SimpleTest\Writer;
  *
  * That means that instances of this class can have a writer retrieved.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 interface WriterAwareInterface
 {
     /**
      * Retrieves the writer used by this instance.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return WriterInterface
      */

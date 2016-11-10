@@ -9,14 +9,14 @@ use ReflectionClass;
  *
  * Class test locators locate tests in a specified class.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 interface ClassLocatorInterface extends LocatorInterface
 {
     /**
      * Set the class for this locator to locate tests from.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @param string|ReflectionClass $class A class name or reflection instance.
      */

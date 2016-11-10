@@ -5,14 +5,14 @@ namespace Dhii\SimpleTest\FuncTest\Assertion;
 /**
  * Tests {@see \Dhii\SimpleTest\Assertion\MakerInterface}.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 class MakerInterfaceTest extends \Xpmock\TestCase
 {
     /**
      * Creates a new instance of the test subject.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return \Dhii\SimpleTest\Assertion\MakerInterface The new instance of the subject.
      */
@@ -28,7 +28,7 @@ class MakerInterfaceTest extends \Xpmock\TestCase
     /**
      * Tests that a class implementing this interface can be instantiated.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      */
     public function testCanBeCreated()
     {

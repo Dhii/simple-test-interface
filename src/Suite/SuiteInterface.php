@@ -7,14 +7,14 @@ use Dhii\SimpleTest\Test;
 /**
  * Something that can act as a test suite.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 interface SuiteInterface
 {
     /**
      * Add a single test.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @param Test\TestInterface $test The test to add.
      *                                 If a test with the same key already exists, it will be overwritten.
@@ -24,7 +24,7 @@ interface SuiteInterface
     /**
      * Add multiple tests.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @param Test\TestInterface[]|\Traversable $set A set of tests to add.
      */
@@ -33,7 +33,7 @@ interface SuiteInterface
     /**
      * Get this suite's unique identifier.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return string This suite's code.
      *                This is unique tester-wide.

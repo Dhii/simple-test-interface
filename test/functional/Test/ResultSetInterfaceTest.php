@@ -5,14 +5,14 @@ namespace Dhii\SimpleTest\FuncTest\Test;
 /**
  * Tests {@see \Dhii\SimpleTest\Test\ResultSetInterface}.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 class ResultSetInterfaceTest extends \Xpmock\TestCase
 {
     /**
      * Creates a new instance of the test subject.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return \Dhii\SimpleTest\Test\ResultSetInterface The new instance of the subject.
      */
@@ -29,7 +29,7 @@ class ResultSetInterfaceTest extends \Xpmock\TestCase
     /**
      * Tests that a class implementing this interface can be instantiated.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      */
     public function testCanBeCreated()
     {

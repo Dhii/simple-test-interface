@@ -5,7 +5,7 @@ namespace Dhii\SimpleTest\Test;
 /**
  * Represents a test result.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 interface ResultInterface extends TestBaseInterface
 {
@@ -18,7 +18,7 @@ interface ResultInterface extends TestBaseInterface
      *
      * A status represents the outcome of a test.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return string A string that represents this test's status.
      */
@@ -27,7 +27,7 @@ interface ResultInterface extends TestBaseInterface
     /**
      * Retrieve a list of possible status codes.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return string[] A numeric array, each value of which is unique and reresents a status code.
      */
@@ -36,7 +36,7 @@ interface ResultInterface extends TestBaseInterface
     /**
      * Get the message of this test.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return mixed Something that represents a message.
      */
@@ -45,7 +45,7 @@ interface ResultInterface extends TestBaseInterface
     /**
      * Retrieve whether or not this test was successful.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return bool True if the test passed; false otherwise.
      */
@@ -54,7 +54,7 @@ interface ResultInterface extends TestBaseInterface
     /**
      * Retrieve the code of the runner that ran this test.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return string The code of the runner that ran this test.
      */

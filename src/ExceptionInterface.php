@@ -5,7 +5,7 @@ namespace Dhii\SimpleTest;
 /**
  * Something that can act as a SimpleTest exception.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 interface ExceptionInterface
 {

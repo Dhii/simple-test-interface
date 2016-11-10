@@ -7,21 +7,21 @@ namespace Dhii\SimpleTest\TestCase;
  *
  * A test case is a class that contains test methods written by users.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 interface CaseInterface
 {
     /**
      * Executed before a test method of this instance is run.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      */
     public function beforeTest();
 
     /**
      * Executed before a test method of this instance is run.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      */
     public function afterTest();
 }

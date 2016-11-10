@@ -7,7 +7,7 @@ use Dhii\SimpleTest\Test;
 /**
  * Something that can act as a locator result set.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 interface ResultSetInterface extends Test\SourceInterface
 {

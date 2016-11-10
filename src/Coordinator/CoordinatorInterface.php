@@ -29,7 +29,7 @@ namespace Dhii\SimpleTest\Coordinator;
  * MUST accept the name of the called method as the first parameter, followed by
  * the parameters explained above.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 interface CoordinatorInterface
 {

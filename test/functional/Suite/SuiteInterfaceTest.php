@@ -5,14 +5,14 @@ namespace Dhii\SimpleTest\FuncTest\Suite;
 /**
  * Tests {@see \Dhii\SimpleTest\Suite\SuiteInterface}.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 class SuiteInterfaceTest extends \Xpmock\TestCase
 {
     /**
      * Creates a new instance of the test subject.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return \Dhii\SimpleTest\Suite\SuiteInterface The new instance of the subject.
      */
@@ -30,7 +30,7 @@ class SuiteInterfaceTest extends \Xpmock\TestCase
     /**
      * Tests that a class implementing this interface can be instantiated.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      */
     public function testCanBeCreated()
     {

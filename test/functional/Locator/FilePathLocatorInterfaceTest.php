@@ -5,14 +5,14 @@ namespace Dhii\SimpleTest\FuncTest\Locator;
 /**
  * Tests {@see \Dhii\SimpleTest\Locator\FilePathLocatorInterface}.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 class FilePathLocatorInterfaceTest extends \Xpmock\TestCase
 {
     /**
      * Creates a new instance of the test subject.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return \Dhii\SimpleTest\Locator\FilePathLocatorInterface The new instance of the subject.
      */
@@ -29,7 +29,7 @@ class FilePathLocatorInterfaceTest extends \Xpmock\TestCase
     /**
      * Tests that a class implementing this interface can be instantiated.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      */
     public function testCanBeCreated()
     {
